@@ -1,0 +1,190 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E40AF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="secondaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D97706;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#F8FAFC"/>
+  
+  <!-- Title Section -->
+  <rect x="0" y="0" width="1200" height="80" fill="url(#primaryGrad)"/>
+  <text x="600" y="30" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Smart Research Intelligence Platform (SRIP)</text>
+  <text x="600" y="55" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16">Multi-Agent Business Intelligence Architecture</text>
+  
+  <!-- Input Layer -->
+  <g id="input-layer">
+    <rect x="50" y="120" width="200" height="300" rx="15" fill="white" stroke="#E5E7EB" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="50" y="120" width="200" height="50" rx="15" fill="url(#secondaryGrad)"/>
+    <text x="150" y="140" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Business Query Input</text>
+    
+    <rect x="70" y="190" width="160" height="40" rx="8" fill="#F3F4F6" stroke="#D1D5DB"/>
+    <text x="150" y="205" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="12">Strategic Analysis</text>
+    <text x="150" y="220" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="12">Request</text>
+    
+    <rect x="70" y="240" width="160" height="40" rx="8" fill="#F3F4F6" stroke="#D1D5DB"/>
+    <text x="150" y="255" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="12">Market Research</text>
+    <text x="150" y="270" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="12">Query</text>
+    
+    <rect x="70" y="290" width="160" height="40" rx="8" fill="#F3F4F6" stroke="#D1D5DB"/>
+    <text x="150" y="305" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="12">Competitive</text>
+    <text x="150" y="320" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="12">Intelligence</text>
+    
+    <rect x="70" y="340" width="160" height="40" rx="8" fill="#F3F4F6" stroke="#D1D5DB"/>
+    <text x="150" y="355" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="12">Risk Assessment</text>
+    <text x="150" y="370" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="12">Requirements</text>
+  </g>
+  
+  <!-- Arrow from Input to Core -->
+  <polygon points="270,270 320,250 320,260 310,270 320,280 320,290" fill="#3B82F6"/>
+  
+  <!-- Core System -->
+  <g id="core-system">
+    <rect x="340" y="100" width="520" height="500" rx="20" fill="url(#primaryGrad)" filter="url(#shadow)"/>
+    
+    <!-- LangGraph Orchestrator -->
+    <rect x="360" y="120" width="480" height="60" rx="10" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+    <text x="600" y="140" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">LangGraph Orchestrator</text>
+    <text x="600" y="160" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14">Multi-Agent Workflow Management &amp; State Coordination</text>
+    
+    <!-- Agent Grid -->
+    <g id="agents">
+      <!-- Market Intelligence Agent -->
+      <rect x="370" y="200" width="220" height="100" rx="12" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+      <text x="480" y="220" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Market Intelligence Agent</text>
+      <text x="480" y="240" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif" font-size="11">Industry Trends Analysis</text>
+      <text x="480" y="255" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif" font-size="11">Market Sizing &amp; Growth</text>
+      <text x="480" y="270" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif" font-size="11">Opportunity Identification</text>
+      <text x="480" y="285" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif" font-size="11">Strategic Opportunities</text>
+      
+      <!-- Competitive Intelligence Agent -->
+      <rect x="610" y="200" width="220" height="100" rx="12" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+      <text x="720" y="220" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Competitive Intelligence</text>
+      <text x="720" y="240" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif" font-size="11">Competitive Positioning</text>
+      <text x="720" y="255" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif" font-size="11">Landscape Mapping</text>
+      <text x="720" y="270" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif" font-size="11">Strategic Assessment</text>
+      <text x="720" y="285" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif" font-size="11">Market Share Analysis</text>
+      
+      <!-- Risk Assessment Agent -->
+      <rect x="370" y="320" width="220" height="100" rx="12" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+      <text x="480" y="340" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Risk Assessment Agent</text>
+      <text x="480" y="360" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif" font-size="11">Quantified Risk Scoring</text>
+      <text x="480" y="375" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif" font-size="11">Mitigation Strategies</text>
+      <text x="480" y="390" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif" font-size="11">Multi-Category Analysis</text>
+      <text x="480" y="405" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif" font-size="11">1-10 Risk Scoring</text>
+      
+      <!-- Strategic Advisor Agent -->
+      <rect x="610" y="320" width="220" height="100" rx="12" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+      <text x="720" y="340" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Strategic Advisor Agent</text>
+      <text x="720" y="360" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif" font-size="11">Executive Recommendations</text>
+      <text x="720" y="375" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif" font-size="11">Action Planning</text>
+      <text x="720" y="390" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif" font-size="11">Strategic Synthesis</text>
+      <text x="720" y="405" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif" font-size="11">6-8 Recommendations</text>
+    </g>
+    
+    <!-- Tools Layer -->
+    <rect x="360" y="440" width="480" height="140" rx="10" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="600" y="460" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Integrated Tool Framework</text>
+    
+    <g id="tools">
+      <rect x="380" y="480" width="100" height="30" rx="5" fill="rgba(16,185,129,0.8)"/>
+      <text x="430" y="500" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Web Search</text>
+      
+      <rect x="500" y="480" width="100" height="30" rx="5" fill="rgba(16,185,129,0.8)"/>
+      <text x="550" y="500" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Data Analysis</text>
+      
+      <rect x="620" y="480" width="100" height="30" rx="5" fill="rgba(16,185,129,0.8)"/>
+      <text x="670" y="500" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Risk Modeling</text>
+      
+      <rect x="380" y="520" width="100" height="30" rx="5" fill="rgba(16,185,129,0.8)"/>
+      <text x="430" y="540" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Report Gen</text>
+      
+      <rect x="500" y="520" width="100" height="30" rx="5" fill="rgba(16,185,129,0.8)"/>
+      <text x="550" y="540" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Caching</text>
+      
+      <rect x="620" y="520" width="100" height="30" rx="5" fill="rgba(16,185,129,0.8)"/>
+      <text x="670" y="540" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Validation</text>
+    </g>
+  </g>
+  
+  <!-- Arrow from Core to Output -->
+  <polygon points="880,270 930,250 930,260 920,270 930,280 930,290" fill="#3B82F6"/>
+  
+  <!-- Output Layer -->
+  <g id="output-layer">
+    <rect x="950" y="120" width="200" height="300" rx="15" fill="white" stroke="#E5E7EB" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="950" y="120" width="200" height="50" rx="15" fill="url(#accentGrad)"/>
+    <text x="1050" y="140" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Intelligence Report</text>
+    
+    <rect x="970" y="190" width="160" height="40" rx="8" fill="#FEF3C7" stroke="#F59E0B"/>
+    <text x="1050" y="205" text-anchor="middle" fill="#92400E" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Executive Summary</text>
+    <text x="1050" y="220" text-anchor="middle" fill="#92400E" font-family="Arial, sans-serif" font-size="10">3-Paragraph Brief</text>
+    
+    <rect x="970" y="240" width="160" height="40" rx="8" fill="#FEF3C7" stroke="#F59E0B"/>
+    <text x="1050" y="255" text-anchor="middle" fill="#92400E" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Strategic Actions</text>
+    <text x="1050" y="270" text-anchor="middle" fill="#92400E" font-family="Arial, sans-serif" font-size="10">6-8 Recommendations</text>
+    
+    <rect x="970" y="290" width="160" height="40" rx="8" fill="#FEF3C7" stroke="#F59E0B"/>
+    <text x="1050" y="305" text-anchor="middle" fill="#92400E" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Market Analysis</text>
+    <text x="1050" y="320" text-anchor="middle" fill="#92400E" font-family="Arial, sans-serif" font-size="10">Quantified Insights</text>
+    
+    <rect x="970" y="340" width="160" height="40" rx="8" fill="#FEF3C7" stroke="#F59E0B"/>
+    <text x="1050" y="355" text-anchor="middle" fill="#92400E" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Risk Assessment</text>
+    <text x="1050" y="370" text-anchor="middle" fill="#92400E" font-family="Arial, sans-serif" font-size="10">Scored 1-10</text>
+  </g>
+  
+  <!-- Technology Stack -->
+  <g id="tech-stack">
+    <rect x="200" y="650" width="800" height="120" rx="15" fill="white" stroke="#E5E7EB" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="200" y="650" width="800" height="40" rx="15" fill="url(#secondaryGrad)"/>
+    <text x="600" y="675" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Technology Stack &amp; Performance</text>
+    
+    <g id="tech-items">
+      <rect x="220" y="710" width="120" height="25" rx="12" fill="#3B82F6"/>
+      <text x="280" y="725" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">LangGraph</text>
+      
+      <rect x="360" y="710" width="120" height="25" rx="12" fill="#10B981"/>
+      <text x="420" y="725" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Groq API</text>
+      
+      <rect x="500" y="710" width="120" height="25" rx="12" fill="#F59E0B"/>
+      <text x="560" y="725" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Gradio</text>
+      
+      <rect x="640" y="710" width="120" height="25" rx="12" fill="#8B5CF6"/>
+      <text x="700" y="725" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">HuggingFace</text>
+      
+      <rect x="780" y="710" width="120" height="25" rx="12" fill="#EF4444"/>
+      <text x="840" y="725" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Python 3.11+</text>
+    </g>
+    
+    <!-- Performance Metrics -->
+    <g id="metrics">
+      <text x="280" y="755" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="12" font-weight="bold">15-90s</text>
+      <text x="280" y="768" text-anchor="middle" fill="#6B7280" font-family="Arial, sans-serif" font-size="10">Processing</text>
+      
+      <text x="420" y="755" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="12" font-weight="bold">100%</text>
+      <text x="420" y="768" text-anchor="middle" fill="#6B7280" font-family="Arial, sans-serif" font-size="10">Quality Score</text>
+      
+      <text x="560" y="755" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="12" font-weight="bold">5/5</text>
+      <text x="560" y="768" text-anchor="middle" fill="#6B7280" font-family="Arial, sans-serif" font-size="10">Sections</text>
+      
+      <text x="700" y="755" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="12" font-weight="bold">4</text>
+      <text x="700" y="768" text-anchor="middle" fill="#6B7280" font-family="Arial, sans-serif" font-size="10">Agents</text>
+      
+      <text x="840" y="755" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="12" font-weight="bold">6-8</text>
+      <text x="840" y="768" text-anchor="middle" fill="#6B7280" font-family="Arial, sans-serif" font-size="10">Strategies</text>
+    </g>
+  </g>
+</svg>

@@ -22,6 +22,8 @@ SRIP transforms business intelligence through four specialized AI agents that co
 
 ### Multi-Agent System Design
 
+![SRIP Architecture](https://raw.githubusercontent.com/E-Z1937/SRIP-Platform/main/architecture-diagram.svg)
+
 The system orchestrates four specialized agents through LangGraph:
 
 | Agent | Function | Output |
@@ -229,6 +231,3 @@ MIT License - see LICENSE file for details.
 **Author**: Eshaal Zehra  
 **Repository**: https://github.com/E-Z1937/SRIP-Platform  
 **Live Demo**: https://huggingface.co/spaces/Eshaal-Z/SRIP-platform
-
-**Built for AAIDC 2025 Module 2 Project**  
-*Demonstrating advanced multi-agent orchestration for enterprise business intelligence*

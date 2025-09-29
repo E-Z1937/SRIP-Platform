@@ -224,10 +224,5 @@ MIT License - see LICENSE file for details.
 - [Hugging Face Spaces](https://huggingface.co/spaces) - Cloud deployment
 
 ---
-
-**AAIDC 2025 Module 2 Project**  
-*Demonstrating advanced multi-agent orchestration for enterprise business intelligence*
-
-**Author**: Eshaal Zehra  
-**Repository**: https://github.com/E-Z1937/SRIP-Platform  
+ 
 **Live Demo**: https://huggingface.co/spaces/Eshaal-Z/SRIP-platform
